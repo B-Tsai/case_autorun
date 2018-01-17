@@ -7,7 +7,7 @@
 function job_submit()
 {
     # Submit the job and get its job-ID
-    job_sub_msg=`ssh $user_name@$remote_host "workgroup -g $group_name -C 'qsub $case_dir/$qs_file'"` 
+    job_sub_msg=`ssh $user_name@$remote_host "workgroup -g $group_name -C 'qsub $case_dir_remote/$qs_file'"` 
     job_ID=${job_sub_msg//[^0-9]/}
 }
 

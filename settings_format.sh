@@ -9,8 +9,11 @@ remote_host=""
 # Group name
 group_name=""
 
-# Case directory
-case_dir=""
-
 # .qs file name
 qs_file=""
+
+# Case directory on remote host (full directory)
+case_dir_remote=""
+
+# Case directory on local host (full directory)
+case_dir_local=""
