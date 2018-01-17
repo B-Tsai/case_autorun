@@ -1,4 +1,4 @@
-#
+#!/bin/bash
 #
 #
 #
@@ -16,7 +16,7 @@ function job_check()
 {
     # Get job stat
     job_stat_msg=`ssh $user_name@$remote_host "qstat -u $user_name -j $job_ID"`
-    if [[ $job_stat == "" ]] ; then
+    if [[ $job_stat_msg == "" ]] ; then
         job_stat=0
     else
         job_stat=1
