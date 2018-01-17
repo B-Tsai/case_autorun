@@ -14,7 +14,7 @@ function job_submit()
 
 function job_check()
 {
-    # Get job-ID
+    # Get job stat
     job_stat_msg=`ssh $user_name@$remote_host "qstat -u $user_name -j $job_ID"`
     if [[ $job_stat == "" ]] ; then
         job_stat=0
