@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # User name
 user_name=""
 
@@ -19,4 +20,4 @@ case_dir_remote=""
 case_dir_local=""
 
 # End time step
-end_time_step=""
+end_time_step=
