@@ -17,3 +17,6 @@ case_dir_remote=""
 
 # Case directory on local host (full directory)
 case_dir_local=""
+
+# End time step
+end_time_step=""
